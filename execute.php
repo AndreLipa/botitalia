@@ -43,11 +43,19 @@
 		 //l'header è sempre uguale ed indica che sarà un messaggio con codifica
 		 //JSON
 		header("Content-Type: application/json");
+
+		
 		//i parametri sono cosa voglio mandare indietro al mio utente, rimando il testo che
 		//ho ricevuto e che si trova nella variabile $text
 		$parameters = array('chat_id' => $chatId, "text" => $text);
+		 if($text=="data")
+		 {
+			$text = "La data odierna è ".date("g.m,y");
+			$parameters = array('chat_id' => $chatId, "text" => $text);
+		 }
+		 
+		 if ($text==")
 		
-	
 		
 		//aggiungo il comando di invio
 		//e lo invio
