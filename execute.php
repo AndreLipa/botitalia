@@ -60,6 +60,10 @@
 			 $parameters = array('chat_id' => $chatId, "text" => $text);
 		 }
 		
+		 if ($text=="foto")
+		 {
+			 sendFoto($chat_id, "foto.png", false, "La mia foto", $api);
+		 }
 		
 		//aggiungo il comando di invio
 		//e lo invio
