@@ -54,7 +54,11 @@
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		 }
 		 
-		 if ($text==")
+		 if ($text=="ciao")
+		 {
+			 $text = "Benvenuto sul bot per fare nuove amicizie!";
+			 $parameters = array('chat_id' => $chatId, "text" => $text);
+		 }
 		
 		
 		//aggiungo il comando di invio
