@@ -3,7 +3,7 @@
 		// PARAMETRI DA MODIFICARE
 		//inserite vostro indirizzo su heroku 
 		//https://username.herokuapp.com/execute.php
-		$WEBHOOK_URL = 'https://botitalia.herokuapp.com/';
+		$WEBHOOK_URL = 'https://botitalia.herokuapp.com/excute.php';
 		//inserite il vostro token che vi ha fornito l'utente telegram @botfather
 		$BOT_TOKEN = '719514969:AAH-zY-XAdjg3_xfcXWe4k--P8dzuC6sPXc';
 
